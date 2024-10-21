@@ -1,8 +1,13 @@
+import Hero from "./components/Hero/Hero.jsx"
+
 
 function App() {
  
   return (
-    <div className="text-purple-900">hello</div>
+    <main className="overflow-x-hidden">
+      <Hero />
+    </main>
+    
 
   )
 }
